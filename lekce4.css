@@ -1,0 +1,21 @@
+.container {
+    margin: 20px;
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    place-items: center;
+    place-content: center;
+}
+
+.element-1 { background-color: #e53935;
+align-self: end; 
+justify-self: start;}
+.element-2 { background-color: #8e24aa; }
+.element-3 { background-color: #3949ab; }
+.element-4 { background-color: #039be5; }
+.element-5 { background-color: #00897b; }
+.element-6 { background-color: #7cb342; }
+.element-7 { background-color: #fdd835; }
+.element-8 { background-color: #fb8c00; }
+.element-9 { background-color: #546e7a; }

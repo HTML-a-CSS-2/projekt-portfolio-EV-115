@@ -1,0 +1,96 @@
+.Blok-jedna {
+    width: 700 px;
+    background-color: red;
+    padding: 2rem;
+    margin-bottom: 0.5rem;
+}
+.Blok-jedna__element-jedna {
+    font-size: 20px;
+    font-weight: 800;
+    text-align: justify;
+    background-color: white;
+color: black;
+}
+.Blok-jedna__element-dva {
+    font-size: 24px;
+    font-weight: 800;
+    text-align: justify;
+color: bisque;
+}
+.Blok-dva {
+    width: 700 px;
+    background-color: orangered;
+    padding: 2rem;
+    margin-bottom: 0.5rem;
+}
+.Blok-dva__element-jedna {
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    background-color: white;
+color: black;
+}
+.Blok-dva__element-dva {
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+color: bisque;
+}
+.Blok-tri {
+    width: 700 px;
+    background-color: yellow;
+    padding: 2rem;
+    margin-bottom: 0.5rem;
+}
+.Blok-tri__element-jedna {
+    font-size: 20px;
+    font-weight: 800;
+    text-align: justify;
+    background-color: white;
+color: black;
+}
+.Blok-tri__element-dva {
+    font-size: 24px;
+    font-weight: 800;
+    text-align: justify;
+background-color: brown;
+    color: bisque;
+}
+.Blok-ctyri {
+    width: 700 px;
+    background-color: green;
+    padding: 2rem;
+    margin-bottom: 0.5rem;
+}
+.Blok-ctyri__element-jedna {
+    font-size: 20px;
+    font-weight: 800;
+    text-align: justify;
+    background-color: white;
+color: black;
+}
+.Blok-ctyri__element-dva {
+    font-size: 24px;
+    font-weight: 800;
+    text-align: justify;
+    background-color: yellow;
+}
+.Blok-pet {
+    width: 700 px;
+    background-color: skyblue;
+    padding: 2rem;
+    margin-bottom: 0.5rem;
+}
+.Blok-pet__element-jedna {
+    font-size: 20px;
+    font-weight: 800;
+    text-align: justify;
+    background-color: white;
+color: black;
+}
+.Blok-pet__element-dva {
+    font-size: 24px;
+    font-weight: 800;
+    text-align: justify;
+color: blue;
+}

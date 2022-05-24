@@ -1,0 +1,49 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  background: rgb(91, 91, 240);
+  color: #fff;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  background: rgb(157, 110, 201);
+  color: #fff;
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  background: rgb(168, 228, 27);
+  color: #fff;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  background: rgb(28, 226, 144);
+  color: #fff;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  background: rgb(255, 73, 110);
+  color: #fff;
+}
