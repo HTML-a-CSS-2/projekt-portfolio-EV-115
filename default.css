@@ -82,11 +82,10 @@ color: black;
     margin-bottom: 0.5rem;
 }
 .Blok-pet__element-jedna {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 800;
     text-align: justify;
-    background-color: white;
-color: black;
+    color: black;
 }
 .Blok-pet__element-dva {
     font-size: 24px;
