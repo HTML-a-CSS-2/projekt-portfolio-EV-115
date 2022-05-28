@@ -1,8 +1,18 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+    grid-template-rows: repeat(4, 1fr);
+    place-items: center;
+    place-content: center;
+}
+
 .Blok-jedna {
-    width: 700 px;
+    width: 100 px;
     background-color: red;
     padding: 2rem;
     margin-bottom: 0.5rem;
+    align-self: center; 
+justify-self: center;
 }
 .Blok-jedna__element-jedna {
     font-size: 20px;
@@ -22,6 +32,11 @@ color: bisque;
     background-color: orangered;
     padding: 2rem;
     margin-bottom: 0.5rem;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    align-self: start; 
+justify-self: center;
 }
 .Blok-dva__element-jedna {
     font-size: 20px;
@@ -38,9 +53,14 @@ color: bisque;
 }
 .Blok-tri {
     width: 700 px;
-    background-color: yellow;
+    background-color: green;
     padding: 2rem;
     margin-bottom: 0.5rem;
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-column-end: span 2;
+    align-self: stretch; 
+justify-self: center;
 }
 .Blok-tri__element-jedna {
     font-size: 20px;
@@ -53,14 +73,18 @@ color: black;
     font-size: 24px;
     font-weight: 800;
     text-align: justify;
-background-color: brown;
-    color: bisque;
+background-color: yellow;
+    color: black;
 }
 .Blok-ctyri {
     width: 700 px;
-    background-color: green;
+    width: 700 px;
+    background-color: skyblue;
     padding: 2rem;
     margin-bottom: 0.5rem;
+    grid-row-start: 2;
+    grid-column-start: 3;
+    grid-column-end: 3;
 }
 .Blok-ctyri__element-jedna {
     font-size: 20px;
@@ -76,10 +100,15 @@ color: black;
     background-color: yellow;
 }
 .Blok-pet {
-    width: 700 px;
-    background-color: skyblue;
+width: 700 px;
+    background-color: yellow;
     padding: 2rem;
     margin-bottom: 0.5rem;
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    align-self: stretch; 
+justify-self: stretch;
 }
 .Blok-pet__element-jedna {
     font-size: 24px;
