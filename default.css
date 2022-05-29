@@ -1,124 +1,80 @@
-body {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
-    grid-template-rows: repeat(4, 1fr);
-    place-items: center;
-    place-content: center;
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #1dcae4;
 }
 
-.Blok-jedna {
-    width: 100 px;
-    background-color: red;
-    padding: 2rem;
-    margin-bottom: 0.5rem;
-    align-self: center; 
-justify-self: center;
+section {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 20%;
+          flex: 0 0 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-.Blok-jedna__element-jedna {
-    font-size: 20px;
-    font-weight: 800;
-    text-align: justify;
-    background-color: white;
-color: black;
+
+section .Blok-dva {
+  text-decoration: none;
+  color: #6517c4;
+  font-weight: 900;
+  font-size: 1.2rem;
 }
-.Blok-jedna__element-dva {
-    font-size: 24px;
-    font-weight: 800;
-    text-align: justify;
-color: bisque;
+
+section .Blok-dva:hover {
+  text-decoration: underline;
 }
-.Blok-dva {
-    width: 700 px;
-    background-color: orangered;
-    padding: 2rem;
-    margin-bottom: 0.5rem;
-    grid-row-start: 2;
-    grid-column-start: 1;
-    grid-column-end: span 2;
-    align-self: start; 
-justify-self: center;
+
+section .Blok-tri {
+  background-color: #e2df13;
+  border-radius: 40px;
+  color: #FFFFFF;
+  max-width: 90px;
+  font-size: 15px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-.Blok-dva__element-jedna {
-    font-size: 20px;
-    font-weight: 800;
-    text-align: center;
-    background-color: white;
-color: black;
+
+section .Blok-pet {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 20%;
+          flex: 0 0 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-.Blok-dva__element-dva {
-    font-size: 24px;
-    font-weight: 800;
-    text-align: center;
-color: bisque;
+
+section .Blok-pet:first-child, section .Blok-pet:last-child {
+  font-weight: 900;
+  font-size: 1.2rem;
 }
-.Blok-tri {
-    width: 700 px;
-    background-color: green;
-    padding: 2rem;
-    margin-bottom: 0.5rem;
-    grid-row-start: 1;
-    grid-column-start: 2;
-    grid-column-end: span 2;
-    align-self: stretch; 
-justify-self: center;
+
+section .Blok-pet:nth-child(2) {
+  font-size: 0.8rem;
+  text-align: start;
 }
-.Blok-tri__element-jedna {
-    font-size: 20px;
-    font-weight: 800;
-    text-align: justify;
-    background-color: white;
-color: black;
-}
-.Blok-tri__element-dva {
-    font-size: 24px;
-    font-weight: 800;
-    text-align: justify;
-background-color: yellow;
-    color: black;
-}
-.Blok-ctyri {
-    width: 700 px;
-    width: 700 px;
-    background-color: skyblue;
-    padding: 2rem;
-    margin-bottom: 0.5rem;
-    grid-row-start: 2;
-    grid-column-start: 3;
-    grid-column-end: 3;
-}
-.Blok-ctyri__element-jedna {
-    font-size: 20px;
-    font-weight: 800;
-    text-align: justify;
-    background-color: white;
-color: black;
-}
-.Blok-ctyri__element-dva {
-    font-size: 24px;
-    font-weight: 800;
-    text-align: justify;
-    background-color: yellow;
-}
-.Blok-pet {
-width: 700 px;
-    background-color: yellow;
-    padding: 2rem;
-    margin-bottom: 0.5rem;
-    grid-row-start: 3;
-    grid-column-start: 1;
-    grid-column-end: span 3;
-    align-self: stretch; 
-justify-self: stretch;
-}
-.Blok-pet__element-jedna {
-    font-size: 25px;
-    font-weight: 800;
-    text-align: justify;
-    color: black;
-}
-.Blok-pet__element-dva {
-    font-size: 25px;
-    font-weight: 800;
-    text-align: justify;
-color: blue;
-}
+/*# sourceMappingURL=default.css.map */
